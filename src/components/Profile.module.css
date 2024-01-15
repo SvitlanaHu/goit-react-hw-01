@@ -1,57 +1,85 @@
 .profile {
-  border: 1px solid #e1e4e8;
-  border-radius: 5px;
-  width: 250px;
-  text-align: center;
-  font-family: Arial, sans-serif;
+  width: 1000px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15px;
+  width: 370px;
+  box-shadow: 0 0 10px #c6cccced;
+  border-radius: 10px;
 }
 
 .description {
-  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: inherit;
+  border-bottom: #7e6f7498 solid 2px;
 }
 
 .avatar {
+  width: 300px;
+  box-shadow: 0 0 3px 0px #0000004d;
   border-radius: 50%;
-  width: 70px;
-  height: 70px;
-  margin-bottom: 10px;
+  background-color: #e7eeeeed;
+  padding: 20px 10px 0px 10px;
+  margin-bottom: 15px;
 }
 
 .name {
-  font-size: 20px;
-  font-weight: bold;
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 15px;
+  color: #524a4d;
 }
 
-.tag,
+.tag {
+  font-weight: 500;
+  font-size: 20px;
+  text-decoration: none;
+  color: #524a4d;
+  margin-bottom: 15px;
+}
+
 .location {
-  color: #6b7280;
-  font-size: 14px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #524a4d;
+  margin-bottom: 15px;
 }
 
 .stats {
   display: flex;
-  background-color: #f3f4f6;
-  margin: 0;
-  padding: 10px 0;
-  list-style: none;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: auto;
+  padding: 0;
+  width: inherit;
+  background-color: #7e6f7449;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
-.statsItem {
-  flex: 1;
-  border-right: 1px solid #e1e4e8;
-  }
-  
-  .statsItem:last-child {
-  border-right: none;
-  }
-  
-  .label {
-  display: block;
-  color: #6b7280;
-  font-size: 12px;
-  }
-  
-  .value {
-  font-size: 16px;
-  font-weight: bold;
-  }
+.stats > li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px;
+  min-width: 80px;
+  padding: 7px 0;
+}
+
+.label {
+  margin-right: 3px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #524a4d8b;
+  margin-bottom: 5px;
+}
+
+.value {
+  font-weight: 800;
+  font-size: 20px;
+  color: #524a4d;
+}
