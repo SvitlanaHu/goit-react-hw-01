@@ -1,0 +1,57 @@
+.item {
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  width: 150px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.avatar {
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.nameStatusWrapper {
+  width: 100%;
+}
+
+.name {
+  color: #333333;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.statusWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.status {
+  margin-right: 5px;
+  font-size: 14px;
+}
+
+.onlineIcon,
+.offlineIcon {
+  margin-right: 5px;
+}
+
+.statusText {
+  font-weight: bold;
+}
+
+.online {
+  color: green;
+}
+
+.offline {
+  color: red;
+}

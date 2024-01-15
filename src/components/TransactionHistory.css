@@ -1,0 +1,59 @@
+.transactionHistory {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.transactionHistory th,
+.transactionHistory td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.transactionHistory th {
+  background-color: #000;
+  color: #fff;
+}
+
+.transactionHistory td {
+  text-align: center;
+  background-color: #f2f2f2;
+}
+
+.transactionHistory tbody tr:nth-child(even) {
+  background-color: #e9e9e9;
+}
+
+.typeText {
+  margin-left: 5px;
+}
+
+.invoiceIcon {
+  color: blue;
+}
+
+.paymentIcon {
+  color: green;
+}
+
+.withdrawalIcon {
+  color: red;
+}
+
+.invoice {
+  color: blue;
+}
+
+.payment {
+  color: green;
+}
+
+.withdrawal {
+  color: red;
+}
+.depositIcon {
+  color: #ffa500;
+}
+
+.deposit {
+  color: #ffa500;
+}
