@@ -3,7 +3,8 @@ import {FriendListItem} from './FriendListItem';
 
 export const FriendList = ({ items }) => {
   return (
-    <ul className={styles.friendList}>
+    <div className={styles.friends}>
+      <ul className={styles.friendList}>
       {items.map(friend => (
         <FriendListItem
           key={friend.id}
@@ -12,6 +13,7 @@ export const FriendList = ({ items }) => {
           isOnline={friend.isOnline}
         />
       ))}
-    </ul>
+      </ul>
+    </div>
   );
 };

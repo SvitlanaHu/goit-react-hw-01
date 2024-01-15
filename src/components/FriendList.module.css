@@ -1,7 +1,15 @@
+.friends {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  flex-direction: column;
+  width: 370px;
+}
+
 .friendList {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  width: inherit;
   padding: 0;
-  margin: 0;
-  list-style: none;
+  gap: 10px;
 }
