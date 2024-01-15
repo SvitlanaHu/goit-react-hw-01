@@ -1,4 +1,4 @@
-import styles from './Profile.css';
+import styles from './Profile.module.css';
 
 export const Profile = ({
   items: { username, tag, location, avatar, stats },

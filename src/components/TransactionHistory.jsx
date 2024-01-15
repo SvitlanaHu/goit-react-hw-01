@@ -4,7 +4,7 @@ import {
   MdAccountBalanceWallet,
   MdAddCircleOutline,
 } from 'react-icons/md';
-import styles from './TransactionHistory.css';
+import styles from './TransactionHistory.module.css';
 
 export const TransactionHistory = ({ items }) => {
   const getTypeIcon = type => {

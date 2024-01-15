@@ -1,6 +1,6 @@
 import { GrStatusGoodSmall } from "react-icons/gr";
 import { GrStatusGood } from "react-icons/gr";
-import styles from './FriendListItem.css';
+import styles from './FriendListItem.module.css';
 
 export const FriendListItem = ({ avatar, name, isOnline }) => {
   const StatusIcon = isOnline ? GrStatusGood : GrStatusGoodSmall;
