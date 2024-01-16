@@ -9,12 +9,12 @@ export const FriendListItem = ({ avatar, name, isOnline }) => {
 
   return (
     <li className={styles.item}>
-      <img className={styles.avatar} src={avatar} alt={`Avatar of ${name}`} width="48" />
-      <p className={styles.name}>{name}</p>
       <div className={styles.statusWrapper}>
         <StatusIcon className={`${styles.statusIcon} ${statusClass}`} />
         <span className={`${styles.statusText} ${statusClass}`}>{statusText}</span>
       </div>
+      <img className={styles.avatar} src={avatar} alt={`Avatar of ${name}`} width="48" />
+      <p className={styles.name}>{name}</p>
     </li>
   );
 };
